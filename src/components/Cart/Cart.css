@@ -1,0 +1,20 @@
+
+.price-table{
+    text-align: left;
+    margin:1rem 0;
+    margin-left:2rem;
+}
+.price-table td{
+    padding:.2rem;
+}
+.review-btn{
+    background-color: goldenrod;
+    border:1px solid gray;
+    border-radius:.3rem;
+    cursor:pointer;
+    padding:.4rem 2.9rem;
+}
+.total-price{
+    font-size:1.2rem;
+    font-weight: bold;
+}

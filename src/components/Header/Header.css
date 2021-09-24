@@ -1,0 +1,26 @@
+.header-img{
+    max-height: 100px;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+.menu-main{
+    background-color: black;
+}
+.menu{
+    display: flex;
+    margin:0;
+}
+.menu-item{
+    list-style:none;
+}
+.menu-item a{
+    display:block;
+   color:whitesmoke;
+   text-decoration:none;
+   padding:.8rem 1.5rem;
+   font-size:1.2rem;
+   transition:.4s;
+}
+.menu-item:hover > a{
+    background-color:rgba(211, 211, 211, 0.596);
+}

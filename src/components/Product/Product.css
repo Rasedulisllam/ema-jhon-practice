@@ -1,0 +1,28 @@
+
+.product{
+    display: flex;
+    width:85%;
+    margin-left:auto;
+    text-align: left;
+    border-bottom:1px solid #ddd;
+    padding:1rem .2rem;
+}
+.product-img{
+    padding:0 1rem;
+    margin-right:.4rem;
+}
+.product-details h3{
+    font-weight:400;
+    color:rgb(28, 94, 168);
+}
+.add-button{
+    background-color: goldenrod;
+    border:1px solid gray;
+    border-radius:.3rem;
+    cursor:pointer;
+    padding:.4rem 2.9rem;
+}
+.rating-icon{
+    color:goldenrod;
+    margin-bottom: .7rem;
+}
