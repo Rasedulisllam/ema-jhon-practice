@@ -1,0 +1,19 @@
+
+.from-control{
+    text-align: left;
+}
+
+.from-control input{
+    width:100%;
+    padding:.8rem .6rem;
+    outline: 0;
+    border:1px solid transparent;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 10px rgba(8, 41, 41, 0.548);
+    margin-bottom: .9rem;
+}
+.from-control label{
+    font-weight: bold;
+    display:block;
+    margin:.43rem 0;
+}

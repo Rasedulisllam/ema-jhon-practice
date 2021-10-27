@@ -4,14 +4,16 @@ import { totalTex,totalPrice,} from '../../utilities/CartTotal';
 
 const Cart = props => {
     const {addCart}=props
+    // console.log(props)
 
     // count total  calculation
-    let totalProductCount=0;
-    addCart.forEach(product=>{
-        product.count=!product.count?1:product.count;
-        // console.log(product.count)
-        totalProductCount+=product.count;
-    })
+    // let totalProductCount=0;
+    // addCart.forEach(product=>{
+    //     product.count=!product.count?1:product.count;
+    //     console.log(product.count)
+    //     totalProductCount+=product.count;
+    // })
+    const totalProductCount=addCart.reduce((prev,product)=>prev+=product.count,0)
 
     // calculate item total price
     const itemTotalPrice=addCart.reduce((prev,product)=>prev+(product.price*product.count),0);
@@ -45,7 +47,7 @@ const Cart = props => {
                     </tr>
                 </tfoot>
             </table>
-            <button className="review-btn">Review your order</button>
+            {props.children}
         </div>
     );
 };
